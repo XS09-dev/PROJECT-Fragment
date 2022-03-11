@@ -1,0 +1,50 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-72,
+				77
+			],
+			"idle_offsets": [
+				-72,
+				77
+			],
+			"loop_name": "talk LOOP",
+			"idle_name": "ok"
+		},
+		{
+			"loop_offsets": [
+				-72,
+				77
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				-72,
+				77
+			],
+			"loop_name": "ayo LOOP",
+			"idle_name": "ok"
+		},
+		{
+			"loop_offsets": [
+				-72,
+				77
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				-72,
+				77
+			],
+			"loop_name": "bruh LOOP",
+			"idle_name": "ok"
+		}
+	],
+	"image": "HRIS_Dialogue"
+}

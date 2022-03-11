@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "pissed",
+			"text": "Listen kid I don't have time for this.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "hris"
+		},
+		{
+			"expression": "shocked",
+			"text": "booop?!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "CAN YOU PLEASE SHUT UP?!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "hris"
+		},
+		{
+			"expression": "shocked",
+			"text": "sckeep....",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Listen I'm sorry but I'm tired. On top of that looking for someone...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "hris"
+		},
+		{
+			"expression": "talk",
+			"text": "beep",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Ok FINE ONE MORE",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "hris"
+		},
+		{
+			"expression": "excited",
+			"text": "BEEEP!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

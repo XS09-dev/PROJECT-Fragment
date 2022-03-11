@@ -1,0 +1,88 @@
+{
+	"dialogue": [
+		{
+			"expression": "shocked",
+			"text": "HEY ARE YOU OK?",
+			"boxState": "normal",
+			"speed": 0.01,
+			"portrait": "hris"
+		},
+		{
+			"expression": "shocked",
+			"text": "beep!?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "Phew thank god. Anyways I'm sorry that I almost flattened you to a pancake. ",
+			"boxState": "normal",
+			"speed": 0.10,
+			"portrait": "hris"
+		},
+		{
+			"expression": "talk",
+			"text": "Boop skadoop?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "What?",
+			"boxState": "normal",
+			"speed": 0.10,
+			"portrait": "hris"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "Uhhhhhh?",
+			"boxState": "normal",
+			"speed": 0.10,
+			"portrait": "hris"
+		},
+		{
+			"expression": "talk",
+			"text": "Boop!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "I'm so confused",
+			"boxState": "normal",
+			"speed": 0.10,
+			"portrait": "hris"
+		},
+		{
+			"expression": "talk",
+			"text": "He's asking you to have a rap battle with him.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "BOOP!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "ok?",
+			"boxState": "normal",
+			"speed": 0.10,
+			"portrait": "hris"
+		}
+	]
+}

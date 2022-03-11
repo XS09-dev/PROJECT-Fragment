@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="HRIS_Dialogue.png">
+<SubTexture name="ok0000" x="1136" y="0" width="251" height="610" frameX="-40" frameY="-17" frameWidth="355" frameHeight="663" />
+<SubTexture name="ok LOOP0000" x="1136" y="0" width="251" height="610" frameX="-40" frameY="-17" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo0000" x="786" y="629" width="265" height="605" frameX="-23" frameY="-23" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo0001" x="1051" y="629" width="261" height="605" frameX="-28" frameY="-23" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo0002" x="527" y="629" width="259" height="608" frameX="-31" frameY="-20" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo LOOP0000" x="786" y="629" width="265" height="605" frameX="-23" frameY="-23" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo LOOP0001" x="1051" y="629" width="261" height="605" frameX="-28" frameY="-23" frameWidth="355" frameHeight="663" />
+<SubTexture name="ayo LOOP0002" x="527" y="629" width="259" height="608" frameX="-31" frameY="-20" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh0000" x="0" y="0" width="272" height="629" frameX="-24" frameY="0" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh0001" x="272" y="0" width="293" height="624" frameX="-15" frameY="-6" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh0002" x="565" y="0" width="308" height="618" frameX="-7" frameY="-13" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh LOOP0000" x="0" y="0" width="272" height="629" frameX="-24" frameY="0" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh LOOP0001" x="272" y="0" width="293" height="624" frameX="-15" frameY="-6" frameWidth="355" frameHeight="663" />
+<SubTexture name="bruh LOOP0002" x="565" y="0" width="308" height="618" frameX="-7" frameY="-13" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk0000" x="0" y="629" width="266" height="609" frameX="-49" frameY="-19" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk0001" x="873" y="0" width="263" height="611" frameX="-45" frameY="-17" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk0002" x="266" y="629" width="261" height="609" frameX="-40" frameY="-19" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk LOOP0000" x="0" y="629" width="266" height="609" frameX="-49" frameY="-19" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk LOOP0001" x="873" y="0" width="263" height="611" frameX="-45" frameY="-17" frameWidth="355" frameHeight="663" />
+<SubTexture name="talk LOOP0002" x="266" y="629" width="261" height="609" frameX="-40" frameY="-19" frameWidth="355" frameHeight="663" />
+</TextureAtlas>

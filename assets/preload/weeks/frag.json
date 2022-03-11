@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Separated", "hris", [0, 0, 255]],
+		["Fatal Blow", "hris", [0, 0, 255]]
+	],
+
+	"weekCharacters": [
+		"hris",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "frag",
+
+	"storyName": "Just a an endless cycle of dispair",
+	"weekBefore": "tutorial",
+	"weekName": "frag",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
