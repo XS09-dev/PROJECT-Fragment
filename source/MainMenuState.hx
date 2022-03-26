@@ -112,7 +112,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
+			//menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -123,6 +123,14 @@ class MainMenuState extends MusicBeatState
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
+
+		menuItems.members[0].x = 350;
+        menuItems.members[0].y = 100;
+		menuItems.members[1].x = 150;
+		menuItems.members[2].x = 650;
+		menuItems.members[2].y = 250;
+		menuItems.members[3].x = 400;
+        menuItems.members[3].y = 375;
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "R41D v0.2.0", 12);
 		versionShit.scrollFactor.set();
@@ -192,6 +200,18 @@ class MainMenuState extends MusicBeatState
 				changeItem(1);
 			}
 
+			if (controls.UI_LEFT_P)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					changeItem(-1);
+				}
+	
+				if (controls.UI_RIGHT_P)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					changeItem(1);
+				}
+	
 			if (controls.BACK)
 			{
 				selectedSomethin = true;
@@ -265,7 +285,7 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			spr.screenCenter(X);
+			//spr.screenCenter(X);
 		});
 	}
 
