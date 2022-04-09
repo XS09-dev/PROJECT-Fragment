@@ -9,6 +9,7 @@ import openfl.utils.Assets as OpenFlAssets;
 import haxe.Json;
 import haxe.format.JsonParser;
 import sys.io.File;
+import sys.FileSystem;
 
 using StringTools;
 

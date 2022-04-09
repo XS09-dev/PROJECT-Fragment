@@ -140,7 +140,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "PROJECT: Fragment' v0.1.2", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "PROJECT: Fragment' v0.1.4", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -248,7 +248,13 @@ class MainMenuState extends MusicBeatState
 						{
 							FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
 							{
-								var daChoice:String = optionShit[curSelected];
+								var daChoice:String = optionShit[curSelected];	
+								var curDifficulty:Int = 1;
+								var value:Int = 0;	
+								var diffic = CoolUtil.getDifficultyFilePath(curDifficulty);
+								var diff:String = CoolUtil.difficulties[curDifficulty];
+								if(diffic == null) diffic = '0';
+								var songArray:Array<String> = [];
 
 								switch (daChoice)
 								{

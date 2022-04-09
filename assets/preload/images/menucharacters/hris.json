@@ -1,11 +1,10 @@
 {
-	
-	"image": "Menu_Hris",
+	"confirm_anim": "M HRIS Idle",
+	"idle_anim": "M HRIS Idle",
 	"position": [
 		0,
-		0
+		148
 	],
-	"scale": 1,
-	"idle_anim": "M Hris Idle",
-	"confirm_anim": "M Hris Idle"
+	"scale": 0.55,
+	"image": "Menu_Hris"
 }

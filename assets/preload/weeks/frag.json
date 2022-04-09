@@ -1,21 +1,41 @@
 {
-	"songs": [
-		["Separated", "hris", [0, 0, 255]],
-		["Fatal Blow", "hris", [0, 0, 255]]
+	"storyName": "HRIS",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "frag",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
 	],
-
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Separated",
+			"hris",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fatal-Blow",
+			"hrismad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
 	"weekCharacters": [
 		"hris",
 		"bf",
 		"gf"
 	],
-	"weekBackground": "frag",
-
-	"storyName": "Just a an endless cycle of dispair",
-	"weekBefore": "tutorial",
-	"weekName": "frag",
-	"startUnlocked": true,
-
-	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "HRIS"
 }
